@@ -15,15 +15,16 @@ module.exports = function(grunt) {
     },
     jshint: {
       options: {
-        curly: true,
+        curly: false,
         eqeqeq: true,
         immed: true,
         latedef: true,
         newcap: true,
-        noarg: true,
+        noarg: false,
         sub: true,
         undef: true,
         boss: true,
+        strict: false,
         eqnull: true,
         node: true
       },
