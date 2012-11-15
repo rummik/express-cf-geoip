@@ -1,0 +1,35 @@
+{
+  "name": "express-cf-geoip",
+  "description": "Express CloudFlare GEOIP middleware",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rummik/express-cf-geoip",
+  "author": {
+    "name": "rummik",
+    "email": "r@9k1.us",
+    "url": "http://www.rummik.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rummik/express-cf-geoip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rummik/express-cf-geoip/issues"
+  },
+  "licenses": [
+    {
+      "type": "MPL",
+      "url": "https://github.com/rummik/express-cf-geoip/blob/master/LICENSE-MPL"
+    }
+  ],
+  "main": "lib/express-cf-geoip",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": []
+}
